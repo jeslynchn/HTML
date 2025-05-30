@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Navigation Example</title>
+    <link rel="Latihan KAIT_CSS STYLE" href="Latihan KAIT_CSS STYLE.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="logo.png" alt="Company Logo"></a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Electronics</a></li>
+                        <li><a href="#">Clothing</a></li>
+                        <li><a href="#">Home & Garden</a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search products...">
+            <button>Search</button>
+        </div>
+        <div class="user-links">
+            <a href="login.html">Login</a>
+            <a href="cart.html">Cart (0)</a>
+        </div>
+    </header>
+
+    <!-- Breadcrumbs -->
+    <nav class="breadcrumbs">
+        <a href="index.html">Home</a> &gt; 
+        <a href="#">Electronics</a> &gt; 
+        <span>Mobile Phones</span>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <aside class="sidebar">
+            <h2>Filters</h2>
+            <form>
+                <label for="price">Price:</label>
+                <input type="range" id="price" name="price" min="0" max="1000">
+                <label for="brand">Brand:</label>
+                <select id="brand" name="brand">
+                    <option value="samsung">Samsung</option>
+                    <option value="apple">Apple</option>
+                    <option value="sony">Sony</option>
+                </select>
+                <button type="submit">Apply Filters</button>
+            </form>
+        </aside>
+        <section class="product-list">
+            <h2>Mobile Phones</h2>
+            <!-- Product items will be listed here -->
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-nav">
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+        <div class="newsletter-signup">
+            <h3>Subscribe to our newsletter</h3>
+            <form>
+                <input type="email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+
+        <div class="social-media">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+        <div class="payment-methods">
+            <img src="visa-icon.png" alt="Visa">
+            <img src="mastercard-icon.png" alt="MasterCard">
+            <img src="paypal-icon.png" alt="PayPal">
+        </div>
+    </footer>
+</body>
+</html>
+
