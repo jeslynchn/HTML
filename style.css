@@ -9,8 +9,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
+    background-color: red;
+    color: magenta;
 }
 
 .logo img {
@@ -38,7 +38,7 @@ header {
 .main-navigation ul li ul.dropdown {
     display: none;
     position: absolute;
-    background-color: #444;
+    background-color: green;
     top: 100%;
     left: 0;
     list-style: none;
@@ -62,24 +62,24 @@ header {
 .search-bar button {
     padding: 5px 10px;
     border: none;
-    background-color: #555;
-    color: #fff;
+    background-color: #55;
+    color: #ff;
 }
 
 .user-links a {
-    color: #fff;
+    color: #ff;
     margin-left: 20px;
     text-decoration: none;
 }
 
 .breadcrumbs {
     padding: 10px 20px;
-    background-color: #f5f5f5;
+    background-color: #f5;
 }
 
 .breadcrumbs a {
     text-decoration: none;
-    color: #333;
+    color: #33;
 }
 
 main {
@@ -90,7 +90,7 @@ main {
 .sidebar {
     width: 25%;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #f5;
 }
 
 .product-list {
@@ -100,8 +100,8 @@ main {
 
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #33;
+    color: #ff;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -113,7 +113,7 @@ footer {
 }
 
 .footer-nav a, .social-media a {
-    color: #fff;
+    color: #ff;
     text-decoration: none;
     margin-right: 20px;
 }
@@ -131,8 +131,8 @@ footer {
 .newsletter-signup button {
     padding: 5px 10px;
     border: none;
-    background-color: #555;
-    color: #fff;
+    background-color: #55;
+    color: #ff;
 }
 
 
