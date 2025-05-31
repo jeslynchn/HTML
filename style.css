@@ -21,7 +21,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #f38c96;
+    background-color: #f9a1a9;
     color: #FADADD;
 }
 
@@ -50,7 +50,7 @@ header {
 .main-navigation ul li ul.dropdown {
     display: none;
     position: absolute;
-    background-color: #f8acb4;
+    background-color: #f4c7cc;
     top: 100%;
     left: 0;
     list-style: none;
@@ -86,7 +86,7 @@ header {
 
 .breadcrumbs {
     padding: 10px 20px;
-    background-color: #f8acb4;
+    background-color: #f4c7cc;
 }
 
 .breadcrumbs a {
@@ -102,7 +102,7 @@ main {
 .sidebar {
     width: 25%;
     padding: 20px;
-    background-color: #f8acb4;
+    background-color: #f4c7cc;
 }
 
 .product-list {
@@ -112,7 +112,7 @@ main {
 
 
 footer {
-    background-color: #f38c96;
+    background-color: #f9a1a9;
     color: #362312;
     padding: 20px;
     display: flex;
@@ -146,6 +146,7 @@ footer {
     background-color: #FADADD;
     color: #FADADD;
 }
+
 
 
 
