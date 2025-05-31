@@ -10,8 +10,6 @@
 @media screen and (min-width: 1024px) {
   /* CSS rules for desktop */
 
-}
-
 body {
     font-family: BAHNSCHRIFT, sans-serif;
     margin: 0;
@@ -43,7 +41,7 @@ header {
 }
 
 .main-navigation ul li a {
-    color: #b76e79;
+    color: #362312;
     padding: 10px 20px;
     text-decoration: none;
     display: block;
@@ -88,7 +86,7 @@ header {
 
 .breadcrumbs {
     padding: 10px 20px;
-    background-color: #FADADD;
+    background-color: #f8acb4;
 }
 
 .breadcrumbs a {
@@ -104,7 +102,7 @@ main {
 .sidebar {
     width: 25%;
     padding: 20px;
-    background-color: #FADADD;
+    background-color: #f8acb4;
 }
 
 .product-list {
@@ -114,7 +112,7 @@ main {
 
 
 footer {
-    background-color: #f8acb4;
+    background-color: #f99aa4;
     color: #362312;
     padding: 20px;
     display: flex;
@@ -146,8 +144,11 @@ footer {
     padding: 5px 10px;
     border: none;
     background-color: #FADADD;
-    color: #362312;
+    color: #FADADD;
 }
+
+
+
 
 
 
