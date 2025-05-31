@@ -50,7 +50,7 @@ header {
 .main-navigation ul li ul.dropdown {
     display: none;
     position: absolute;
-    background-color: #f4d5d9;
+    background-color: #FADADD;
     top: 100%;
     left: 0;
     list-style: none;
@@ -86,7 +86,7 @@ header {
 
 .breadcrumbs {
     padding: 10px 20px;
-    background-color: #f4d5d9;
+    background-color: #FADADD;
 }
 
 .breadcrumbs a {
@@ -102,7 +102,7 @@ main {
 .sidebar {
     width: 25%;
     padding: 20px;
-    background-color: #f4d5d9;
+    background-color: #FADADD;
 }
 
 .product-list {
