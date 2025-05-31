@@ -9,8 +9,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #FADDAD;
-    color: #362312;
+    background-color: #f99aa4;
+    color: #FADADD;
 }
 
 .logo img {
@@ -74,12 +74,12 @@ header {
 
 .breadcrumbs {
     padding: 10px 20px;
-    background-color: #362312;
+    background-color: #FADADD;
 }
 
 .breadcrumbs a {
     text-decoration: none;
-    color: #FADDAD;
+    color: #b76e79;
 }
 
 main {
@@ -90,7 +90,7 @@ main {
 .sidebar {
     width: 25%;
     padding: 20px;
-    background-color: #362312;
+    background-color: #FADADD;
 }
 
 .product-list {
@@ -100,7 +100,7 @@ main {
 
 
 footer {
-    background-color: #FADDAD;
+    background-color: #f8acb4;
     color: #362312;
     padding: 20px;
     display: flex;
@@ -131,7 +131,7 @@ footer {
 .newsletter-signup button {
     padding: 5px 10px;
     border: none;
-    background-color: #FADDAD;
+    background-color: #FADADD;
     color: #362312;
 }
 
