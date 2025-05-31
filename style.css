@@ -1,4 +1,4 @@
-        /* Smartphone (portrait and landscape) */
+ /* Smartphone (portrait and landscape) */
 @media screen and (max-width: 767px) {
   /* CSS rules for smartphones */
 }
@@ -50,7 +50,7 @@ header {
 .main-navigation ul li ul.dropdown {
     display: none;
     position: absolute;
-    background-color: #f4c7cc;
+    background-color: #f4d1d4;
     top: 100%;
     left: 0;
     list-style: none;
@@ -91,7 +91,7 @@ header {
 
 .breadcrumbs a {
     text-decoration: none;
-    color: #b76e79;
+    color: #f0bbc3;
 }
 
 main {
@@ -146,6 +146,11 @@ footer {
     background-color: #FADADD;
     color: #FADADD;
 }
+
+
+
+
+
 
 
 
