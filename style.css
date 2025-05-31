@@ -1,5 +1,5 @@
 body {
-    font-family:BAHNSCHRIFT, sans-serif;
+    font-family: BAHNSCHRIFT, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -9,8 +9,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: red;
-    color: magenta;
+    background-color: #FADDAD;
+    color: #362312;
 }
 
 .logo img {
@@ -29,7 +29,7 @@ header {
 }
 
 .main-navigation ul li a {
-    color: #ffff;
+    color: #b76e79;
     padding: 10px 20px;
     text-decoration: none;
     display: block;
@@ -38,7 +38,7 @@ header {
 .main-navigation ul li ul.dropdown {
     display: none;
     position: absolute;
-    background-color: green;
+    background-color: #b76e79;
     top: 100%;
     left: 0;
     list-style: none;
@@ -62,24 +62,24 @@ header {
 .search-bar button {
     padding: 5px 10px;
     border: none;
-    background-color: #55;
-    color: #ff;
+    background-color: #fff;
+    color: #b76e79
 }
 
 .user-links a {
-    color: #ff;
+    color: #fff;
     margin-left: 20px;
     text-decoration: none;
 }
 
 .breadcrumbs {
     padding: 10px 20px;
-    background-color: #f5;
+    background-color: #362312;
 }
 
 .breadcrumbs a {
     text-decoration: none;
-    color: #33;
+    color: #FADDAD;
 }
 
 main {
@@ -90,7 +90,7 @@ main {
 .sidebar {
     width: 25%;
     padding: 20px;
-    background-color: #f5;
+    background-color: #362312;
 }
 
 .product-list {
@@ -100,8 +100,8 @@ main {
 
 
 footer {
-    background-color: #33;
-    color: #ff;
+    background-color: #FADDAD;
+    color: #362312;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -113,7 +113,7 @@ footer {
 }
 
 .footer-nav a, .social-media a {
-    color: #ff;
+    color: #362312;
     text-decoration: none;
     margin-right: 20px;
 }
@@ -131,8 +131,8 @@ footer {
 .newsletter-signup button {
     padding: 5px 10px;
     border: none;
-    background-color: #55;
-    color: #ff;
+    background-color: #FADDAD;
+    color: #362312;
 }
 
 
