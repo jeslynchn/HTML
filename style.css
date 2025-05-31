@@ -1,3 +1,17 @@
+        /* Smartphone (portrait and landscape) */
+@media screen and (max-width: 767px) {
+  /* CSS rules for smartphones */
+}
+/* Tablet (portrait and landscape) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* CSS rules for tablets */
+}
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  /* CSS rules for desktop */
+
+}
+
 body {
     font-family: BAHNSCHRIFT, sans-serif;
     margin: 0;
