@@ -51,7 +51,7 @@ header {
 .main-navigation ul li ul.dropdown {
     display: none;
     position: absolute;
-    background-color: #fbdadf;
+    background-color: #f1ced3;
     top: 100%;
     left: 0;
     list-style: none;
@@ -87,12 +87,12 @@ header {
 
 .breadcrumbs {
     padding: 10px 20px;
-    background-color: #fbdadf;
+    background-color: #f1ced3;
 }
 
 .breadcrumbs a {
     text-decoration: none;
-    color: #f0bbc3;
+    color: #f1ced3;
 }
 
 main {
@@ -103,7 +103,7 @@ main {
 .sidebar {
     width: 25%;
     padding: 20px;
-    background-color: #fbdadf;
+    background-color: #f1ced3;
 }
 
 .product-list {
@@ -144,7 +144,7 @@ footer {
 .newsletter-signup button {
     padding: 5px 10px;
     border: none;
-    background-color: #fbdadf;
+    background-color: #f1ced3;
     color: #FADADD;
 }
 
