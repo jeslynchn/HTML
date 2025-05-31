@@ -21,8 +21,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #f99aa4;
-    color: #FADADD;
+    background-color: #f38c96;
+    color: #f8acb4;
 }
 
 .logo img {
@@ -50,7 +50,7 @@ header {
 .main-navigation ul li ul.dropdown {
     display: none;
     position: absolute;
-    background-color: #b76e79;
+    background-color: #FADADD;
     top: 100%;
     left: 0;
     list-style: none;
@@ -112,7 +112,7 @@ main {
 
 
 footer {
-    background-color: #f99aa4;
+    background-color: #f38c96;
     color: #362312;
     padding: 20px;
     display: flex;
@@ -146,6 +146,8 @@ footer {
     background-color: #FADADD;
     color: #FADADD;
 }
+
+
 
 
 
