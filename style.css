@@ -92,7 +92,7 @@ header {
 
 .breadcrumbs a {
     text-decoration: none;
-    color: #f1ced3;
+    color: #b76e79;
 }
 
 main {
@@ -144,8 +144,8 @@ footer {
 .newsletter-signup button {
     padding: 5px 10px;
     border: none;
-    background-color: #f1ced3;
-    color: #FADADD;
+    background-color: #RED;
+    color: #FFFF;
 }
 
 
