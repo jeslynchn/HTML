@@ -63,6 +63,15 @@ header {
     display: block;
 }
 
+#kategori,
+#tentang-kami {
+  width: 100%;
+  padding: 20px;
+  background-color: #fff5f5;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
 .search-bar {
     display: flex;
 }
