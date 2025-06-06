@@ -1,171 +1,93 @@
- /* Smartphone (portrait and landscape) */
-@media screen and (min-width: 320px) {
-  /* CSS rules for smartphones */
-}
-/* Tablet (portrait and landscape) */
-@media screen and (min-width: 768px) {
-  /* CSS rules for tablets */
-}
-/* Desktop */
-@media screen and (min-width: 1200px) {
-  /* CSS rules for desktop */
-}
- 
+/* --- Default (Mobile First): ponsel 320px ke atas --- */
 body {
-    font-family: BAHNSCHRIFT, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: BAHNSCHRIFT, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #f9a1a9;
-    color: #FADADD;
-}
-
-.logo img {
-    height: 50px;
-}
-
-.main-navigation ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.main-navigation ul li {
-    position: relative;
-}
-
-.main-navigation ul li a {
-    color: #362312;
-    padding: 10px 20px;
-    text-decoration: none;
-    display: block;
-}
-
-.main-navigation ul li ul.dropdown {
-    display: none;
-    position: absolute;
-    background-color: #f1ced3;
-    top: 100%;
-    left: 0;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.main-navigation ul li:hover ul.dropdown {
-    display: block;
-}
-
-#kategori,
-#tentang-kami {
-  width: 100%;
-  padding: 20px;
-  background-color: #fff5f5;
-  margin-top: 20px;
-  border-radius: 8px;
-}
-
-.search-bar {
-    display: flex;
-}
-
-.search-bar input {
-    padding: 5px;
-    border: none;
-}
-
-.search-bar button {
-    padding: 5px 10px;
-    border: none;
-    background-color: #fff;
-    color: #b76e79
-}
-
-.user-links a {
-    color: #fff;
-    margin-left: 20px;
-    text-decoration: none;
-}
-
-.breadcrumbs {
-    padding: 10px 20px;
-    background-color: #f1ced3;
-}
-
-.breadcrumbs a {
-    text-decoration: none;
-    color: #b76e79;
+header,
+main,
+footer {
+  padding: 10px;
 }
 
 main {
-    display: flex;
-    padding: 20px;
+  display: block;
 }
 
-.sidebar {
-    width: 25%;
-    padding: 20px;
-    background-color: #f1ced3;
-}
-
+.sidebar,
 .product-list {
-    width: 75%;
-    padding: 20px;
+  width: 100%;
 }
 
+.main-navigation ul {
+  display: block;
+}
+
+.search-bar,
+.user-links {
+  display: block;
+  margin-top: 10px;
+}
 
 footer {
-    background-color: #f9a1a9;
-    color: #362312;
-    padding: 20px;
+  text-align: center;
+  flex-direction: column;
+}
+
+/* --- Tablet: min-width 768px --- */
+@media screen and (min-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sidebar {
+    width: 30%;
+  }
+
+  .product-list {
+    width: 70%;
+  }
+
+  .main-navigation ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .search-bar,
+  .user-links {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
-.footer-nav, .newsletter-signup, .social-media, .payment-methods {
-    margin-bottom: 20px;
-}
-
-.footer-nav a, .social-media a {
-    color: #362312;
-    text-decoration: none;
-    margin-right: 20px;
-}
-
-.newsletter-signup form {
+/* --- Desktop: min-width 1200px --- */
+@media screen and (min-width: 1200px) {
+  header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main-navigation ul {
+    justify-content: flex-start;
+  }
+
+  .sidebar {
+    width: 25%;
+  }
+
+  .product-list {
+    width: 75%;
+  }
+
+  footer {
+    padding: 20px 40px;
+  }
 }
-
-.newsletter-signup input {
-    padding: 5px;
-    border: none;
-    margin-right: 10px;
-}
-
-.newsletter-signup button {
-    padding: 5px 10px;
-    border: none;
-    background-color: #ff;
-    color: #red;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
