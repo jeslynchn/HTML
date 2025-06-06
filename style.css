@@ -106,6 +106,7 @@ main {
   width: 25%;
   padding: 20px;
   background-color: #f1ced3;
+  text-align: justify;
 }
 
 .product-list {
@@ -218,7 +219,7 @@ button:hover {
 /* Desktop (min-width: 1200px) */
 @media screen and (min-width: 1200px) {
   .sidebar {
-    width: 25%;
+    width: 30%;
   }
   .product-list {
     width: 75%;
