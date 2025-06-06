@@ -155,7 +155,7 @@ button:hover {
 .newsletter-signup button {
   padding: 5px 10px;
   border: none;
-  background-color: darkred;
+  background-color: red;
   color: white;
 }
 
