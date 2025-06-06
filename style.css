@@ -217,7 +217,7 @@ button:hover {
 /* Desktop (min-width: 1200px) */
 @media screen and (min-width: 1200px) {
   .sidebar {
-    width: 30%;
+    width: 25%;
   }
   .product-list {
     width: 75%;
