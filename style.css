@@ -54,6 +54,10 @@ header {
   display: block;
 }
 
+main p {
+    text-align: justify;
+}
+
 .search-bar {
   display: flex;
   margin-left: 20px;
@@ -112,6 +116,21 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
 
 .footer-nav, .newsletter-signup, .social-media, .payment-methods {
   margin-bottom: 20px;
