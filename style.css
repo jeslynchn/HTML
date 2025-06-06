@@ -58,6 +58,11 @@ header {
     text-align: justify;
 }
 
+.sidebar .tentang-kami p {
+  text-align: justify;
+  margin-top: 10px;
+}
+
 .search-bar {
   display: flex;
   margin-left: 20px;
